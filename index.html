@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html lang="en">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Innovative, and responsive real estate website for California Realtor Sadeth Lee">
+		<meta name="keywords" content="scss, sadeth, homes, real estate, california, orange county">
+		<meta name="author" content="Michael J Peppers <mjpeppersdev@protonmail.com>">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Homes By Sadeth</title>
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-expand-lg sticky-top navbar-light shadow p-3 mb-5 bg-white rounded" style="background-color: #fff;">
+			<a class="navbar-brand" href="#">
+				<img src="static/hbs.png" width="60" height="60" class="d-inline-block align-top" alt="Homes by Sadeth logo">
+			</a>
+			<button class="navbar-toggler panel pink" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#properties">Properties</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		
+		<header>
+			<video autoplay playsinline muted loop preload poster="static/bgvideo.mp4">
+				<source src="static/bgvideo.mp4" />
+			</video>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 120" preserveAspectRatio="xMidYMid slice">
+				<defs>
+				<mask id="mask" x="0" y="0" width="180%" height="200%" >
+				  <rect x="0" y="0" width="100%" height="500%" />
+				<text x="72"  y="43">Homes</text>
+				<text x="72" y="73">By</text>
+				<text x="72" y="102">Sadeth</text>
+				  </mask>
+			  </defs>
+			 <rect x="0" y="0" width="200%" height="750%" />
+			  </svg>
+			
+		</header>
+
+		<hr class="divider"/>
+		<hr class="divider divider--delay"/>
+
+		
+			<section class="about-container" id="about">
+						<div class="frame">
+							<div class="circle"></div>
+							<div class="line left"></div>
+							<div class="line right"></div>
+							<div class="bracket left"></div>
+							<div class="bracket right"></div>
+							<div class="small top">About</div>
+							<div class="big">Sadeth Lee</div>
+							<div class="small bottom">Orange County Real Estate Professional</div>
+							<div class="hide top"></div>
+							<div class="hide bottom"></div>
+						</div>
+					</div>
+			</section>
+			
+			<section class="headshot-container">
+				<div data-aos="fade-up-left"  class="headshot">
+					<img src="static/headshot2.png" alt="Sadeth Lee Realtor" class="headshot">
+					<div data-aos="fade-up-right" class="bh">
+						<img src="static/berkshire.jpg" alt="Berkshire Hathaway Home Sales Logo" class="img rounded" width="475px">
+					<div data-aos="fade-up-right" class="hero">
+						<div class="hero-image">
+							<div class="hero-text">
+								<p style="font-size: 40px"></p>
+							</div>
+						</div>
+					</div>
+						<div class="card text-right">
+							<div class="card-img-overlay">
+								<div class="card-body">
+									<h2 class="card-title">Title</h2>
+									<p class="card-body">Body</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" type="text/javascript"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js" type="text/javascript"></script>
+		<script>
+		  AOS.init();
+		</script>
+		<script src="app.js" type="text/javascript"></script>
+		
+
+	</body>
