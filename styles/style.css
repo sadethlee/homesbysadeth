@@ -518,6 +518,7 @@ h1 {
 
 .headshot-container {
   background-image: url("https://user-images.githubusercontent.com/28616709/67066640-4891a080-f128-11e9-81d6-0fa1ee5789e8.jpg");
+  max-width: 100%;
   display: block;
   position: relative;
   top: 500px;
@@ -527,6 +528,11 @@ h1 {
   line-height: 85px;
   letter-spacing: 2px;
   overflow: hidden;
+}
+
+.featured-container {
+  position: relative;
+  top: 500px;
 }
 
 
