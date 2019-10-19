@@ -535,5 +535,50 @@ h1 {
   top: 500px;
 }
 
+.divider2 {
+  display: block;
+  position: relative;
+  margin: 1rem 0;
+  width: 100%;
+  top: 500px;
+  height: 4px;
+  border: none;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, #73188f, #ffe958, #2df0f7, #ffbb2a, #73189f, #cc3366);
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.divider2--delay {
+  animation-delay: 1s;
+}
+.divider2::before,
+.divider2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -1px;
+  background: white;
+}
+
+.divider2::before {
+  left: 0;
+  top: -1px;
+}
+.divider2::after {
+  right: 0;
+}
+
+@keyframes slide {
+  from {
+    background-position: left 0;
+  }
+  to {
+    background-position: right 0;
+  }
+}
+
 
 
