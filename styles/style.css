@@ -717,14 +717,12 @@ h1 {
 
 .btn-success {
   position: relative;
-  top: 10px;
-  left: 15px;
+  display: flex;
 }
 
 .btn-info {
   position: absolute;
-  bottom: 40px;
-  right: 40px;
+  display: flex;
 }
 
 .testimonials-container {
