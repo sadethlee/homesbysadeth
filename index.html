@@ -33,58 +33,49 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg sticky-top navbar-light shadow p-3 mb-5 bg-white rounded"
-		style="background-color: #fff;">
-		<a class="navbar-brand" href="#">
-			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571616630/static/hbs_tjmklq.png"
-				width="60" height="60" class="d-inline-block align-top" alt="Homes by Sadeth logo">
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#properties">Properties</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#testimonials">Testimonials</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#contact">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-
-
 	<header>
-		<video autoplay playsinline muted loop preload
-			poster="https://res.cloudinary.com/homesbysadeth/video/upload/v1571616505/static/bgvideo1_kotdx6.mp4">
-			<source
-				src="https://res.cloudinary.com/homesbysadeth/video/upload/v1571616505/static/bgvideo1_kotdx6.mp4" />
-		</video>
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285 120" preserveAspectRatio="xMidYMid slice">
-			<defs>
-				<mask id="mask" x="0" y="0" width="200%" height="200%">
-					<rect x="0" y="0" width="150%" height="500%" />
-					<text x="72" y="43">Homes</text>
-					<text x="72" y="73">By</text>
-					<text x="72" y="102">Sadeth</text>
-				</mask>
-			</defs>
-			<rect x="0" y="0" width="200%" height="750%" />
-		</svg>
+	<span class="logo">
+			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571616630/static/hbs_tjmklq.png"  alt="Homes by Sadeth logo">
+	</span>
+        <input type="checkbox" id="nav-btn" class="nav-btn"/>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
 
-	</header>
+        </nav>
+        <label for="nav-btn" class="nav-btn-label">
+            <span>
 
+            </span>
+        </label>
+</header>
+
+<body>
+
+	<section id="content">
+		<h1 class="main-title">Homes by Sadeth</h1>
+		<p class="subtext">Sadeth Lee <br>DRE #: 02011684 <br> Phone #: (949) 274-0118</p>
+		<div class="grid-parent">
+			<div class="column one">
+				<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571792787/static/greenhorizrgb_1_vqymgx.png" class="img-fluid mx-auto horizon"  width="100%" alt="Green Horizon Logo" />
+			</div>
+			<div class="column two">
+				<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571774920/static/DRE_Logo_qqwzxz.png" class="img-fluid mx-auto d-block dre" width="50%" alt="California DRE logo" />
+			</div>
+			<div class="column three">
+				<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571791256/static/48596_913201641240PM72555_ealqul.png" class="img-fluid mx-auto d-block berk" width="100%" alt="Berkshire Hathaway HomeServices Logo" />
+			</div>
+		</div>
+	</section>
+
+	<video autoplay loop>
+		<source src="https://res.cloudinary.com/homesbysadeth/video/upload/v1571616505/static/bgvideo1_kotdx6.mp4" type="video/mp4">
+	</video>
+	
 	<hr class="divider" />
 	<hr class="divider divider--delay" />
 
@@ -107,12 +98,10 @@
 
 	<section class="headshot-container">
 		<div data-aos="fade-up-left" class="headshot">
-			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571616386/static/headshot2_rianma.png"
-				alt="Sadeth Lee Realtor" class="headshot" width="370px">
+			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571616386/static/headshot2_rianma.png" alt="Sadeth Lee Realtor" class="headshot" width="370px">
 		</div>
 		<div data-aos="fade-up-right" class="bh">
-			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571616401/static/berkshire_d443gl.png"
-				alt="Berkshire Hathaway Home Sales Logo" class="img rounded" width="355px">
+			<img src="https://res.cloudinary.com/homesbysadeth/image/upload/v1571791256/static/48596_913201641240PM72555_ealqul.png" alt="Berkshire Hathaway Home Sales Logo" class="img rounded" width="355px">
 		</div>
 		<div class="card text-right">
 			<div class="card-body bg-dark">
