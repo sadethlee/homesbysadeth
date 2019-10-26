@@ -737,3 +737,66 @@ h1 {
     background-position: right 0;
   }
 }
+
+.divider4 {
+  display: block;
+  position: relative;
+  margin: 1rem 0;
+  width: 100vw;
+  height: 4px;
+  border: none;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, #73188f, #ffe958, #2df0f7, #ffbb2a, #73189f, #cc3366);
+  animation-duration: 2s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.divider4--delay {
+  animation-delay: 1s;
+}
+.divider4::before,
+.divider4::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -1px;
+  background: white;
+}
+
+.divider4::before {
+  left: 0;
+  top: -1px;
+}
+.divider4::after {
+  right: 0;
+}
+
+@keyframes slide {
+  from {
+    background-position: left 0;
+  }
+  to {
+    background-position: right 0;
+  }
+}
+
+.contact-me {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  overflow: hidden;
+}
+
+.icon-right1 {
+  position: relative;
+  display: inline-block;
+  left: 60px;
+  top: -6px;
+}
+
+.icon-right2 {
+  position: relative;
+  display: inline-block;
+  left: 60px;
+}
+
