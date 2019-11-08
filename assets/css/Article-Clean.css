@@ -10,7 +10,7 @@
   margin: 0 auto 30px;
 }
 
-.article-clean .intro h1 {
+.article-clean .intro strong {
   font-size: 32px;
   margin-bottom: 15px;
   padding-top: 20px;
