@@ -82,13 +82,8 @@
     z-index: 2
 }
 
-#client-card .img-1 {
-    width: 100%;
-    height: auto;
-}
-
 #client-card .content .img-1 {
-    width: 40%;
+    width: 35%;
     height: auto;
     margin: 0 auto;
     border-radius: 50%;
